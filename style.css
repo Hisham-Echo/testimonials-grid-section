@@ -26,7 +26,7 @@ body {
     display: grid;
     place-items: center;
     padding: 80px 20px;
-    background-color: hsla(217, 19%, 35%, 0.2);
+    background-color: hsl(217deg 36.89% 52.82% / 20%);
 }
 
 .one {
@@ -153,4 +153,15 @@ main .four header .img img {
         max-height: 640px;
         place-items: stretch;
     }
+}
+
+.five,
+.four,
+.three {
+    box-shadow: 0px 15px 20px 0 #0002;
+}
+
+.three .review,
+.five .review {
+    color: var(--Very-dark-grayish-blue);
 }
